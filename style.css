@@ -1,14 +1,29 @@
+*{
+	box-sizing: border-box;
 
+}
+body{
+	margin: 0;
+}
 h2{
 	font-family: cursive;
 	font-weight: 500;
 	color: #3399ff;
-}
+	border-style: solid;
+/*    border-bottom: thick dotted #ff0000;
+*/	}
+
 h1{
-	font-family: cursive;
+	font-family: sans-serif;
 	font-weight: 1000;
-	color: #0080ff;
+	color: white;
 	font-size: 40px;
+	background-color: #3399ff;
+	margin-top: 0;
+	margin-bottom: 10;
+	width: 100%;
+	padding-bottom: 40px;
+
 }
 h4{
 	font-weight: 800;
@@ -28,6 +43,19 @@ ul#contactmelist li{
 ul#skillslist{
 list-style-type: circle;
 }
+#details li{
+	list-style-type: none;
+	display: inline;
+	float: right;
+
+}
+#details li:after{
+	content: "|";
+	color: red;
+}
+#details li:last-child:after{
+	content: ""
+}
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -38,11 +66,14 @@ list-style-type: circle;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+    border-radius: 10px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
 }
-
+img{
+	border-radius: 10px;
+}
 .button1 {
     background-color: white; 
     color: black; 
@@ -60,3 +91,6 @@ a{
 	width: 40em;
 	float: inherit;
 }*/
+#education, #work, #skills{
+	background-color: #ccd9ff;
+}
