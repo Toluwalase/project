@@ -75,8 +75,8 @@ img{
 	border-radius: 10px;
 }
 .button1 {
-    background-color: white; 
-    color: black; 
+    background-color: white;
+    color: black;
     border: 2px solid #3399ff;
 }
 
@@ -92,5 +92,5 @@ a{
 	float: inherit;
 }*/
 #education, #work, #skills{
-	background-color: #ccd9ff;
+	background-color: white;
 }
